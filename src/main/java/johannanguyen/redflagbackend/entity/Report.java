@@ -8,6 +8,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.List;
+
 @Entity
 @Data
 @NoArgsConstructor
@@ -22,5 +24,5 @@ public class Report {
     private String nationality;
     private String birthDate;
     private String job;
-    private String category;
+    private List<String> category;
 }
