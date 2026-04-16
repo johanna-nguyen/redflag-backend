@@ -9,10 +9,10 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/reports")
 @CrossOrigin(origins = "*")
-public class RedflagController {
+public class ReportController {
     private final ReportService service;
 
-    public RedflagController(ReportService service) {
+    public ReportController(ReportService service) {
         this.service = service;
     }
 
